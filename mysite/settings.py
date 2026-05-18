@@ -40,7 +40,7 @@ CSRF_TRUSTED_ORIGINS=["https://*.aldryn.io"]
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    'mysite.apps.MyAdminConfig',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
